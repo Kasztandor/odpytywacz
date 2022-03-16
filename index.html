@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		:root{
+			--wid: 100px;
+			--col1: ;
+			--col2: ;
+		}
+		body{
+			text-align: center;
+		}
+		.red{
+			color: red;
+			text-decoration: line-through;
+		}
+		.green{
+			color: green;
+		}
+		.bg1{
+			background-color: var(--col1);
+		}
+		.bg2{
+			background-color: var(--col2);
+		}
+		#corr, #ircorr{
+			height: 10px;
+			display: inline-block;
+		}
+		#corr{
+			width: var(--wid);
+		}
+		#ircorr{
+			width: calc(200px - var(--wid));
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+	var words = [["starożytny","ancient"],["na rondzie","at the roundabout"],["w ratuszu","at the town hall"],["na światłach","at the traffic lights"],["zakazać","ban"],["tętniący życiem","bustling"],["brukowana ulica","cobbled street"],["ścieżka rowerowa","cycle lane"],["codzienny dojazd","daily commute"],["cel podróży","destination"],["zdeterminowany","determined"],["system odpływowy","drainage system"],["wczesne godziny","early hours"],["emisja","emission"],["słynący z","famed for"],["dać komuś mandat","fine sb"],["rozkwitać","flourish"],["przejść modernizację","get a facelift"],["rodzinne miasto","home town"],["podupadający","in decline"],["w centrum miasta","in the city centre"],["w parku","in the park"],["na przedmieściach","in the suburbs"],["mieszkaniec","inhabitant"],["ograniczyć","limit"],["burmistrz","mayor"],["średniowieczny","medieval"],["zagrożenie hałasem","noise pollution"],["na granicy","on the border"],["na wybrzeżu","on the coast"],["na obrzeżach miasta","on the outskirts"],["parkowanie na ulicy","on-street parking"],["targ na świeżym powietrzu","open-air market"],["chodnik","pavement"],["deptak","pedestrian zone"],["zamknięcie dla ruchu kołowego (np. ulicy)","pedestrianisation"],["malowniczy","picturesque"],["popularny wśród","popular with"],["zachować","preserve"],["urokliwy","quaint"],["niezawodna sieć (np. transportu publicznego)","reliable network"],["zastąpić","replace"],["mieszkaniec","resident"],["łagodnie pofałdowane wzgórza","rolling hills"],["sceneria","scenery"],["zaniedbany","shabby"],["gładki","smooth"],["powierzchnia","surface"],["mała architektura","street furniture"],["otaczać","surround"],["asfalt","tarmac"],["ćwierkać","tweet"],["podziemny parking","underground car park"],["miejski","urban"],["urbanizacja","urban development"],["pełen energii","vibrant"],["żywy kolor","vibrant colour"],["w odległości 500 metrów","within 500 metres"],["w bliskiej odległości","within easy reach"],["w odległości krótkiego spaceru","within walking distance"],["wytyczać","chart"],["rozpoczynać coś","embark on"],["kurs pierwszej pomocy","first-aid course"],["trasa","route"],["wyruszyć w podróż","set off"],["zaryzykować","take a chance"],["najwyższej klasy","top-of-the-range"],["rejs życia","voyage of a lifetime"],["w przystępnej cenie","affordable"],["kasyno","casino"],["życie we wspólnocie mieszkaniowej","co-housing"],["wspólny","communal"],["wspólny dom","communal house"],["pieniądze","disposable income"],["dokować","dock"],["obowiązek domowy","domestic chore"],["właściciel domu","homeowner"],["gospodarstwo domowe","household"],["sprzęt gospodarstwa domowego","household appliance"],["osiedle mieszkaniowe","housing development"],["oprawa oświetleniowa","light fixture"],["parking wielopoziomowy","multi-storey car park"],["życzliwy","neighbourly"],["opłacalny","profitable"],["dostawca","provider"],["dzielnica mieszkaniowa","residential area"],["posiadać niewiele czegoś","run low on sth"],["drugi dom","second home"],["samodzielne mieszkanie, z łazienką, kuchnią i osobnym wejściem","self-contained flat"],["inteligentny dom","smart house"],["mieszkanie socjalne","social housing"],["panel słoneczny","solar panel"],["zgodny z zasadami zrównoważonego rozwoju","sustainable"],["magazynować","store"],["wieżowiec","tower block"],["uznany, o ugruntowanej pozycji","well-established"],["bezprzewodowy","wireless"],["czujny","alert"],["być/stać się czyjąś drugą naturą","be/become second nature to sb"],["koc","blanket"],["płonący","blazing"],["łóżko polowe pokryte płótnem","canvas camp bed"],["rzeźbić w drewnie","carve wood"],["centralne ogrzewanie","central heating"],["zatłoczony","cramped"],["wilgotny","damp"],["wskazówki","directions"],["ciągnąć","drag"],["pełen przeciągów","draughty"],["prywatna łazienka przylegająca do pokoju","en suite bathroom"],["dobrze się czuć samemu, we własnym towarzystwie","enjoy your own company"],["kominek","fireplace"],["kuchnia na wymiar","fitted kitchen"],["migoczący ogień","flickering fire"],["krzesiwo (z krzemienia i kawałka stali)","flint and steel"],["przeżyć stresujące/przerażające chwile","have a hairy moment"],["niedostępny","inaccessible"],["zachować zimną krew","keep a cool head"],["zachować przytomność umysłu","keep your wits about you"],["ekwipunek","kit"],["minimalistyczny","minimalist"],["nie być dla każdego, nie być czymś, co wszyscy polubią","not be everyone's cup of tea"],["żyć zgodnie z głoszonymi zasadami","practise what you preach"],["polegać na","rely on"],["odległy","remote"],["biegać bez kontroli","run wild"],["bieżąca woda","running water"],["sauna","sauna"],["przytulny","snug"],["zaopatrzenie","supplies"],["garbować skórę","tan a skin"],["plemię","tribe"],["kufer","trunk"],["dzicz","wilderness"],["worek","bin bag"],["obrzydliwy","disgusting"],["szuflada","drawer"],["wymówka","excuse"],["kosz na pranie","laundry basket"],["koszmar","nightmare"],["sterta","pile"],["niechluj","slob"],["nieświeży","stale"],["zgadzać się","agree"],["iść na kompromis","compromise"],["kierunek działania","course of action"],["podzielić się pół na pół","go halves"],["akademik","hall of residence"],["pójść na kompromis","meet halfway"],["sprzeciwić się","object"],["prywatność","privacy"],["czynsz","rent"],["bezpiecznik","security"],["dzielić pokój","share a room"],["podzielić się kosztami","split the cost"],["zapierający dech","breathtaking"],["gospoda","inn"],["plan filmowy","movie set"],["sesja filmowa lub zdjęciowa","shoot"],["oszałamiający","stunning"],["atrakcja turystyczna","tourist spot"],["ogólnie rzecz biorąc","all in all"],["doceniać","appreciate"],["argumentować za czymś/przeciw czemuś","to argue for/against sth"],["średni koszt","average cost"],["równoważyć","balance"],["korzyść","benefit"],["rachunki","bills"],["powszechny","common"],["wygodny","convenient"],["przekonujący","convincing"],["minus","downside"],["jednocześnie","equally"],["doświadczać","experience"],["zaginąć","go missing"],["przeszkadzać","interfere"],["pomieszczenie kuchenne","kitchen facilities"],["podobnie","likewise"],["zachować porządek","maintain order"],["po rozważeniu wszystkich kwestii","on balance"],["potencjalny","potential"],["przekonujący","persuasive"],["za i przeciw","pros and cons"],["koszt wynajmu","rental price"],["poczucie wspólnoty","sense of community"],["nadzorca","supervisor"],["pomocny","supportive"]];
+	var points = 0;
+	var mistakes = 0;
+	var accuracy = 100;
+	var wordNumber = 0;
+	var lastAnswer = "";
+	var mode = "progress" //normal progress
+
+	/*for modes variables*/
+	/*normal*/
+	var pointsToGet = 1;
+	/*progress*/
+	var previousCorrect = true;
+	var backingValue = 3;
+
+	window.onload = ()=>{
+		document.querySelector("#answer").addEventListener("keyup" , (e)=>{
+			if (e.key === 'Enter' || e.keyCode === 13){
+				check();
+			}
+		});
+		if (mode == "normal"){
+			random();
+			document.querySelector(':root').style.setProperty('--col1', "red");
+			document.querySelector(':root').style.setProperty('--col2', "green");
+			document.querySelector(':root').style.setProperty('--wid', 200+"px");
+		}
+		else if (mode == "progress"){
+			document.querySelector(':root').style.setProperty('--col1', "gray");
+			document.querySelector(':root').style.setProperty('--col2', "blue");
+			document.querySelector(':root').style.setProperty('--wid', 0+"px");
+		}
+		display();
+	}
+	function display(){
+		document.querySelector("#points").innerHTML = points;
+		document.querySelector("#mistakes").innerHTML = mistakes;
+		document.querySelector("#accuracy").innerHTML = accuracy+"%";
+		document.querySelector("#ask").innerHTML = words[wordNumber][0];
+		document.querySelector("#lastAnswer").innerHTML = lastAnswer;
+	}
+	function random(){
+		wordNumber = Math.floor(Math.random()*words.length);
+	}
+	function next(x){
+		if (mode == "normal"){
+			if (x){
+				points+=pointsToGet;
+				lastAnswer = words[wordNumber][0]+' - <span class="green">'+document.querySelector("#answer").value.trim()+'</span>';
+				pointsToGet = 1;
+				random();
+			}
+			else{
+				mistakes+=pointsToGet;
+				pointsToGet = 0;
+				lastAnswer = words[wordNumber][0]+' - <span class="red">'+document.querySelector("#answer").value.trim()+'</span> '+words[wordNumber][1];
+			}
+			accuracy = Math.round((points/(points+mistakes))*100);
+		}
+		else if (mode == "progress"){
+			if (x){
+				if (pointsToGet){
+					if (wordNumber>(words.length-1)){
+						alert("wygrałeś!")
+						window.location.reload();
+					}
+					else{
+						wordNumber++;
+					}
+				}
+				else{
+					wordNumber-=backingValue;
+					if (wordNumber<0){
+						wordNumber=0;
+					}
+				}
+				points+=pointsToGet;
+				pointsToGet = 1;
+				lastAnswer = words[wordNumber][0]+' - <span class="green">'+document.querySelector("#answer").value.trim()+'</span>';
+			}
+			else{
+				mistakes+=pointsToGet;
+				pointsToGet = 0;
+				lastAnswer = words[wordNumber][0]+' - <span class="red">'+document.querySelector("#answer").value.trim()+'</span> '+words[wordNumber][1];
+			}
+			document.querySelector(':root').style.setProperty('--wid', 200*(wordNumber/words.length)+"px");
+		}
+	}
+	function check(){
+		if(document.querySelector("#answer").value.trim() == words[wordNumber][1]){
+			next(true);
+		}
+		else{
+			next(false);
+		}
+		
+		document.querySelector("#answer").value = "";
+		display();
+	}
+	</script>
+	Dobrze: <span id="points"></span> &emsp; Źle: <span id="mistakes"></span> &emsp; Poprawność: <span id="accuracy"></span><br><br>
+	<div class="bg2" id="corr"></div><div class="bg1" id="ircorr"></div><br><br>
+	<span id="ask"></span> - <input id="answer"></input><br><br>
+	<span id="lastAnswer"></span><br><br>
+	<button onclick="check()">Next</button>
+</body>
+</html>

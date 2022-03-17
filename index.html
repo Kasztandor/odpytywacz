@@ -45,7 +45,10 @@
 	var accuracy = 100;
 	var wordNumber = 0;
 	var lastAnswer = "";
-	var mode = "progress" //normal progress
+	var mode = -1; //normal progress
+	while (mode != "normal" && mode != "progress"){
+		mode = prompt("Tryb (normal/progress)");
+	}
 
 	/*for modes variables*/
 	/*normal*/

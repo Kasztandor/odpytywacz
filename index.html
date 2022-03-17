@@ -100,6 +100,7 @@
 				lastAnswer = words[wordNumber][0]+' - <span class="red">'+document.querySelector("#answer").value.trim()+'</span> '+words[wordNumber][1];
 			}
 			accuracy = Math.round((points/(points+mistakes))*100);
+			document.querySelector(':root').style.setProperty('--wid', 2*accuracy+"px");
 		}
 		else if (mode == "progress"){
 			if (x){

@@ -1,0 +1,159 @@
+PL - DE | Präteritum | Perfekt
+
+=== część 1 ===
+piec - backen | backte | hat gebacken
+zaczynać - beginnen | begann | hat begonnen
+oferować - bieten | bot | hat geboten
+prosić - bitten | bat | hat gebete
+zostawać - bleiben | blieb | ist geblieben
+łamać - brechen | brach | hat gebrochen
+palić - brennen | brannte | hat gebrannt
+przynosić - bringen | brachte | hat gebracht
+myśleć - denken | dachte | hat gedacht
+polecać - empfehlen | empfahl | hat empfohlen
+jeść - essen | aB+ | hat gegesse
+jechać - fahren | fuhr | hat gefahre
+padać - fallen | fiel | ist gefallen
+znaleźć - finden | fand | hat gefunde
+latać - fliegen | flog | hat geflogen
+dawać - geben | gab | hat gegebe
+iść - gehen | ging | ist gegangen
+wygrywać - gewinnen | gewann | hat gewonnen
+mieć - haben | hatte | hat gehabt
+trzymać - halten | hielt | hat gehalten
+wisieć - ha+ngen | hing | hat gehange
+pomagać - helfen | half | hat geholfen
+znać - kennen | kannte | hat gekannt
+brzmieć - klingen | klang | hat geklungen
+przychodzić - kommen | kam | ist gekommen
+ładować - laden | pni | hat geladen
+zostawiać - lassen | ließ | hat gelassen
+biegać - laufen | lief | ist gelaufen
+cierpieć - leiden | litt | hat gelitten
+pożyczać - leihen | lieh | hat geliehen
+czytać - lesen | las | hat gelesen
+leżeć - liegen | lag | hat gelegen
+kłamać - ju+gen | log | hat gelogen
+unikać - meiden | mied | hat gemieden
+mierzyć - messen | maß | hat gemessen
+brać - mehen | nahm | hat genommen
+nazywać - nennen | nannte | hat genannt
+radzić - raten | riet | hat geraten
+pędzić - rennen | rannte | ist gerannt
+
+=== część 2 ===
+wolać - rufen | rief | hat gerufen
+dzielić - scheiden | schied | hat geschieden
+spać - schlafen | schlief | hat geschlafen
+bić - schlagen | schlug | hat geschlagen
+zamykać - schließen | schloss | hat geschlossen
+ciąć - schneiden | schnitt | hat geschnitten
+pisać - schreiben | schrieb | hat geschrieben
+krzyczeć - schreien | schrie | hat geschrie(e)n
+pływać - schwimmen | schwamm | hat geschwommen
+widzieć - sehen | sah | hat gesehen
+być - sein | war | ist gewesen
+śpiewać - singen | sang | hat gesungen
+spadać - sinken | sank | ist gesunken
+siedzieć - sitzen | saß | hat gesessen
+mówić - sprechen | sprach | hat gesprochen
+skakać - springen | sprang | ist gesprungen
+stać - stehen | stand | hat gestanden
+kraść - stehlen | stahl | hat gestohlen
+wsiadać - steigen | stieg | ist gestiegen
+umierać - sterben | starb | ist gestorben
+kłócić się - streiten | stritt | hat gestritten
+nosić - tragen | trug | hat getragen
+spotykać - treffen | traf | hat getroffen
+pić - trinken | trank | hat getrunken
+czynić - tun | tat | hat getan
+zapominać - vergessen | vergaB+ | hat vergessen
+tracić - verlieren | verlor | hat verloren
+rosnąć - wachsen | wuchs | ist gewachsen
+prać - waschen | wusch | hat gewaschen
+stawać się - werden | wurde | ist geworden
+rzucać - werfen | warf | hat geworfen
+ważyć - wiegen | wog | hat gewogen
+wiedzieć - wissen | wusste | hat gewusst
+ciągnąć - ziehen | zog | hat gezogen
+zmuszać - zwingen | zwang | hat gezwungen
+
+
+
+=== część 1 ===
+brać - mehen | nahm | hat genommen
+biegać - laufen | lief | ist gelaufen
+brzmieć - klingen | klang | hat geklungen
+cierpieć - leiden | litt | hat gelitten
+czytać - lesen | las | hat gelesen
+dawać - geben | gab | hat gegebe
+iść - gehen | ging | ist gegangen
+jeść - essen | aB+ | hat gegesse
+jechać - fahren | fuhr | hat gefahre
+kłamać - ju+gen | log | hat gelogen
+latać - fliegen | flog | hat geflogen
+leżeć - liegen | lag | hat gelegen
+łamać - brechen | brach | hat gebrochen
+ładować - laden | pni | hat geladen
+myśleć - denken | dachte | hat gedacht
+mieć - haben | hatte | hat gehabt
+mierzyć - messen | maß | hat gemessen
+nazywać - nennen | nannte | hat genannt
+oferować - bieten | bot | hat geboten
+piec - backen | backte | hat gebacken
+prosić - bitten | bat | hat gebete
+palić - brennen | brannte | hat gebrannt
+przynosić - bringen | brachte | hat gebracht
+polecać - empfehlen | empfahl | hat empfohlen
+padać - fallen | fiel | ist gefallen
+pomagać - helfen | half | hat geholfen
+przychodzić - kommen | kam | ist gekommen
+pożyczać - leihen | lieh | hat geliehen
+pędzić - rennen | rannte | ist gerannt
+radzić - raten | riet | hat geraten
+trzymać - halten | hielt | hat gehalten
+unikać - meiden | mied | hat gemieden
+wygrywać - gewinnen | gewann | hat gewonnen
+wisieć - ha+ngen | hing | hat gehange
+zostawać - bleiben | blieb | ist geblieben
+znaleźć - finden | fand | hat gefunde
+znać - kennen | kannte | hat gekannt
+zaczynać - beginnen | begann | hat begonnen
+zostawiać - lassen | ließ | hat gelassen
+
+=== część 2 ===
+być - sein | war | ist gewesen
+bić - schlagen | schlug | hat geschlagen
+ciągnąć - ziehen | zog | hat gezogen
+czynić - tun | tat | hat getan
+ciąć - schneiden | schnitt | hat geschnitten
+dzielić - scheiden | schied | hat geschieden
+krzyczeć - schreien | schrie | hat geschrie(e)n
+kłócić się - streiten | stritt | hat gestritten
+kraść - stehlen | stahl | hat gestohlen
+mówić - sprechen | sprach | hat gesprochen
+nosić - tragen | trug | hat getragen
+prać - waschen | wusch | hat gewaschen
+pić - trinken | trank | hat getrunken
+pisać - schreiben | schrieb | hat geschrieben
+pływać - schwimmen | schwamm | hat geschwommen
+rosnąć - wachsen | wuchs | ist gewachsen
+rzucać - werfen | warf | hat geworfen
+spadać - sinken | sank | ist gesunken
+siedzieć - sitzen | saß | hat gesessen
+skakać - springen | sprang | ist gesprungen
+stać - stehen | stand | hat gestanden
+spać - schlafen | schlief | hat geschlafen
+spotykać - treffen | traf | hat getroffen
+stawać się - werden | wurde | ist geworden
+śpiewać - singen | sang | hat gesungen
+tracić - verlieren | verlor | hat verloren
+umierać - sterben | starb | ist gestorben
+ważyć - wiegen | wog | hat gewogen
+wiedzieć - wissen | wusste | hat gewusst
+wolać - rufen | rief | hat gerufen
+widzieć - sehen | sah | hat gesehen
+wsiadać - steigen | stieg | ist gestiegen
+zapominać - vergessen | vergaB+ | hat vergessen
+zmuszać - zwingen | zwang | hat gezwungen
+zamykać - schließen | schloss | hat geschlossen
